@@ -1,10 +1,16 @@
+
+import os
+
+
+print("os.path=",os.path)
 # python 高级特性之切片
+#改变标准输出的默认编码
+# sys.stdout=io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 list = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 print('所有元素')
 print(list)
 print('使用切片 取前三个元素')
 print(list[0:3])
-
 print('ABCDEFGHIJKLMN'[1:7])
 L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 
@@ -34,4 +40,3 @@ elif trim('    ') != '':
     print('测试失败!')
 else:
     print('测试成功!')
-
